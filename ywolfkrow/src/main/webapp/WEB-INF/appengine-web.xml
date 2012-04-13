@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+  <application>ywolfkrow</application>
+  <version>beta</version>
+  <static-files>
+    <include path="/s/**"/>
+  </static-files>
+  <ssl-enabled>true</ssl-enabled>
+  <sessions-enabled>true</sessions-enabled>
+</appengine-web-app>
